@@ -26,17 +26,4 @@ app.listen(port, () => {
   console.log(`Server is running on port: ${port}`);
 });
 
-/*
-const MongoClient = require("mongodb").MongoClient;
-const uri =
-  "mongodb+srv://flaminia:futurecoder2019@cluster0-kydb2.mongodb.net/test?retryWrites=true&w=majority";
-const client = new MongoClient(uri, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true
-});
-client.connect(err => {
-  const collection = client.db("test").collection("tasks");
-  // perform actions on the collection object
-  //client.close();
-});
-*/
+
